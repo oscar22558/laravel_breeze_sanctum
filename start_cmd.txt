@@ -1,0 +1,5 @@
+d: && cd D:\LavarelProject\Rehabilitation_web && php artisan serve
+d: && cd D:\LavarelProject\Rehabilitation_web && php artisan tinker
+
+
+d: && cd D:\LavarelProject\freeCodeGram && php -d memory_limit=-1 C:\ProgramData\ComposerSetup\bin\composer.phar require laravel/sanctum && php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider" && php artisan migrate
